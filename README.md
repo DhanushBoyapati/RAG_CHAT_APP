@@ -1,3 +1,4 @@
+## Heading 2
 NEXUS
 
 Advanced RAG Document Intelligence Chatbot
