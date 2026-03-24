@@ -1,5 +1,5 @@
-## Heading 2NEXUS
-## Heading 2Advanced RAG Document Intelligence Chatbot
+NEXUS
+Advanced RAG Document Intelligence Chatbot
 
 FastAPI · Ollama (LLaMA 3) · ChromaDB · Python
 
