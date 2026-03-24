@@ -1,8 +1,11 @@
 NEXUS
+
 Advanced RAG Document Intelligence Chatbot
+
 FastAPI · Ollama (LLaMA 3) · ChromaDB · Python
 
 Overview
+
 Nexus is a fully local, ChatGPT-style document intelligence assistant that enables users to upload files and ask contextual questions about them.
 All processing runs entirely offline:
 No cloud APIs
@@ -12,10 +15,12 @@ Responses include document-level source citations with page references, ensuring
 Powered by LLaMA 3 via Ollama for private local inference.
 
 Retrieval-Augmented Generation (RAG) Pipeline
+
 Nexus implements a structured RAG workflow instead of relying on pretrained model memory.
 Document Ingestion Pipeline
 
 When a file is uploaded:
+
 Text extracted page-wise / slide-wise / row-wise
 Chunked into ~600-character segments using LangChain splitter
 Converted into embeddings via nomic-embed-text
@@ -23,6 +28,7 @@ Stored persistently inside ChromaDB
 Question Answering Pipeline
 
 When a query is submitted:
+
 Query converted into embedding
 Top 15 semantic matches retrieved from vector store
 Hybrid ranking applied:
@@ -43,6 +49,7 @@ Tokens streamed live to UI
 | ZIP    | Automatic archive unpack + ingestion |
 
 Retrieval Intelligence Features:
+
 Hybrid semantic + keyword search
 Duplicate chunk filtering via MD5 hashing
 80-character chunk overlap for context continuity
