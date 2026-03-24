@@ -83,8 +83,7 @@ Model switching (llama3, mistral, phi3, gemma)
 Persistent sessions via localStorage
 
 Step 1: Create Project Folder
-RAG_BOT/
-├── main.py
+RAG_BOT/├── main.py
 ├── chat_ui.html
 ├── requirements.txt
 └── README.md
